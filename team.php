@@ -18,7 +18,7 @@
         <img src="assets/img/header/logo.svg" alt="Logo">
     </div>
     <div class="nav-button__home">
-        <a href="welcome.html"><i class="bi bi-house"></i></a>
+        <a href="welcome.php"><i class="bi bi-house"></i></a>
     </div>
 </div>
 
@@ -26,20 +26,20 @@
     <h1>Choisis un membre de l'équipe.</h1>
 
     <div class="teams">
-        <div class="team-member">
-            <a href="team/alan.html"><img src="assets/img/team/alan.jpg" alt="Alan"></a>
+        <div class="team-member alan">
+            <a href="team/alan.php"><img src="assets/img/team/alan.png" alt="Alan"></a>
         </div>
-        <div class="team-member">
-            <a href="team/hana.html"><img src="assets/img/team/Hana.jpg" alt="Hana"></a>
+        <div class="team-member hana">
+            <a href="team/hana.php"><img src="assets/img/team/hana.png" alt="Hana"></a>
         </div>
-        <div class="team-member">
-            <a href="team/ferreol.html"><img src="assets/img/team/ferréol.jpg" alt="Ferréol"></a>
+        <div class="team-member ferreol">
+            <a href="team/ferreol.php"><img src="assets/img/team/ferreol.png" alt="Ferréol"></a>
         </div>
-        <div class="team-member">
-            <a href="team/thomas.html"><img src="assets/img/team/thomas.jpg" alt="Thomas"></a>
+        <div class="team-member thomas">
+            <a href="team/thomas.php"><img src="assets/img/team/thomas.png" alt="Thomas"></a>
         </div>
-        <div class="team-member">
-            <a href="team/hana.html"><img src="assets/img/team/hugo.jpg" alt="Hugo"></a>
+        <div class="team-member hugo">
+            <a href="team/hana.php"><img src="assets/img/team/hugo.png" alt="Hugo"></a>
         </div>
     </div>
 </section>

@@ -35,6 +35,33 @@ body {
     border: 2px solid #fff; /* Ajoutez une bordure blanche pour la séparation du cercle */
 }
 
+/*#############################
+  # HOVER COLOR PER TEAM MATE #
+  ############################# */
+.alan:hover {
+    background: blue;
+}
+
+.hana:hover {
+    background: white;
+}
+
+.ferreol:hover {
+    background: red;
+}
+
+.thomas:hover {
+    background: green;
+}
+
+.hugo:hover {
+    background: yellow;
+}
+
+/*#############################
+  # END COLOR PER TEAM MATE #
+  ############################# */
+
 .team-member img {
     width: 100%;
     height: 100%;

@@ -18,7 +18,7 @@
         <img src="assets/img/header/logo.svg" alt="Logo">
     </div>
     <div class="nav-button__team">
-        <a href="team.html"><img src="assets/img/header/user-circle.png" alt="Button Image" id="buttonImage"></a>
+        <a href="team.php"><img src="assets/img/header/user-circle.png" alt="Button Image" id="buttonImage"></a>
     </div>
 </div>
 
@@ -27,7 +27,7 @@
     <div class="welcome-lines">
         <h1>Bienvenue sur MMI'Story !</h1>
         <h2>Tu veux connaitre le quotidien des MMI'liciens❓<br> On t'invite à le découvrir 😎</h2>
-        <h4>Trouve le parcours MMI qui te convient ! À chaque situation, choisis la solution que tu préfères pour définir ton parcours à la fin. Chaque choix compte, donc choisis-les avec soin. 🤓</h4>
+        <h4>Trouve le parcours MMI qui te correspond ! À chaque situation, choisis la solution que tu préfères pour définir ton parcours à la fin. Chaque choix compte, donc choisis-les avec soin. 🤓</h4>
         <button>👉 C'est parti !</button>
     </div>
 </section>
