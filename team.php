@@ -15,14 +15,12 @@
 
 <div class="navbar">
     <div class="logo">
-        <img src="assets/img/header/logo.svg" alt="Logo">
-    </div>
-    <div class="nav-button__home">
-        <a href="welcome.php"><i class="bi bi-house"></i></a>
+        <a href="welcome.php"><img src="assets/img/header/logo.svg" alt="Logo"></a>
     </div>
 </div>
 
 <section class="container team">
+    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In suscipit dignissim orci, finibus ultrices nulla facilisis in. In faucibus tellus risus, ut congue nibh scelerisque eu.</h4>
     <h1>Choisis un membre de l'équipe.</h1>
 
     <div class="teams">
@@ -39,7 +37,7 @@
             <a href="team/thomas.php"><img src="assets/img/team/thomas.png" alt="Thomas"></a>
         </div>
         <div class="team-member hugo">
-            <a href="team/hana.php"><img src="assets/img/team/hugo.png" alt="Hugo"></a>
+            <a href="team/hugo.php"><img src="assets/img/team/hugo.png" alt="Hugo"></a>
         </div>
     </div>
 </section>

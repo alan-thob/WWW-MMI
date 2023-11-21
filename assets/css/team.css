@@ -7,17 +7,30 @@
 }
 
 body {
-    background: pink;
+    background-image: url("../img/welcome/devanture.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+h1, h4 {
+    color: #ffffff;
+}
+
+h1 {
+    font-family: 'Ephesis', cursive;
+    letter-spacing: 2px;
+    font-size: 59px;
+    margin-top: 35px;
+}
+
 
 .team {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.team {
     text-align: center;
 }
 
@@ -38,24 +51,48 @@ body {
 /*#############################
   # HOVER COLOR PER TEAM MATE #
   ############################# */
+.team-member {
+    position: relative;
+    overflow: hidden;
+}
+
 .alan:hover {
-    background: blue;
+    background: #3A86FF;
 }
 
 .hana:hover {
-    background: white;
+    background: #FF006E;
 }
 
-.ferreol:hover {
-    background: red;
+.ferreol:hover  {
+    background: #FD2B3B;
 }
 
-.thomas:hover {
-    background: green;
+.thomas:hover  {
+    background: #FB5607;
 }
 
 .hugo:hover {
-    background: yellow;
+    background: #FFBE0B;
+}
+
+.alan,
+.hana,
+.ferreol,
+.thomas,
+.hugo {
+    transition: background 0.3s ease; /* Adjust the duration and timing function as needed */
+}
+
+.team-member img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Optional: Add a smooth transition for image scaling */
+}
+
+.team-member:hover img {
+    transform: scale(1.1); /* Optional: Adjust the scale factor as needed */
 }
 
 /*#############################
