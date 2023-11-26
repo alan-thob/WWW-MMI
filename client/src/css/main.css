@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+
+.unselectable {
+    -webkit-user-select: none; /* Chrome all / Safari all */
+    -moz-user-select: none; /* Firefox all */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Likely future */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Poppins", sans-serif;
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.navbar {
+    overflow: hidden;
+    padding: 15px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 60%;
+}
+
+.nav-button__home, .nav-button__team {
+    float: right;
+}
+
+.nav-button__team img {
+    width: 280px;
+    cursor: pointer;
+}
+
+.nav-button__home i {
+    font-size: 40px;
+    font-weight: 900;
+}

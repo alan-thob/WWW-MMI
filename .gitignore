@@ -1,14 +1,11 @@
+node_modules
+package-lock.json
+<<<<<<< HEAD
+server/db.json
+.idea/workspace.xml
+=======
 
-.idea/WWW-MMI.iml
-.idea/vcs.xml
-.idea/php.xml
-.idea/modules.xml
-.idea/misc.xml
-.idea/._WWW-MMI.iml
-.idea/._workspace.xml
-.idea/._vcs.xml
-.idea/._php.xml
-.idea/._modules.xml
-.idea/._misc.xml
-.idea/._.gitignore
-._.idea
+.idea
+
+server/db.json
+>>>>>>> 75a78b3bb89361053d78ed305e063521edb1e4d8

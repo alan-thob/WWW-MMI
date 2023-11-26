@@ -1,0 +1,49 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    padding: 15px;
+    position: absolute;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 60%;
+}
+
+.nav-button__home, .nav-button__team {
+    float: right;
+}
+
+.nav-button__team img {
+    width: 280px;
+    cursor: pointer;
+}
+
+.nav-button__home i {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.image-parcours {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
