@@ -1,1 +1,1 @@
-# cresus
+# Repository du projet WWW MMI.
